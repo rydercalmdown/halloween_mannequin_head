@@ -1,0 +1,5 @@
+objectdaddy==0.0.4
+rtsparty==0.0.1
+RPi.GPIO==0.7.0
+flask
+requests
