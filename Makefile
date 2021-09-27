@@ -1,10 +1,11 @@
-STREAM_URI=rtsp://ryder:ryder@10.0.0.186/live
-PI_IP_ADDRESS=10.0.0.86
+STREAM_URI=rtsp://username:password@camera_ip_address/live
+PI_IP_ADDRESS=10.0.0.1
+
 
 .PHONY: run
 run:
 	@echo "Starting Script"
-	@. env/bin/activate && export STREAM_URI=$(STREAM_URI) && export RASPBERRY_PI_HOST=$(PI_IP_ADDRESS) && cd src && python app.py
+	@. env/bin/activate && export STREAM_URI=$(STREAM_URI) && cd src && python app.py
 
 .PHONY: install
 install:
