@@ -1,5 +1,5 @@
-# Halloween Manequin Head
-A manequin head that turns to follow any person that walks in front of it.
+# Halloween Mannequin Head
+A mannequin head that turns to follow any person that walks in front of it.
 
 ## Installation
 To install, clone this repository to your Raspberry Pi and run the following command.
